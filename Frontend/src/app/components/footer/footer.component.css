@@ -1,0 +1,29 @@
+.text{
+    color:#ffffff;
+    text-decoration: none;
+}
+.link{
+    color: #ffffff;
+    text-decoration: none;
+}
+.link:hover{
+    color: #040404;
+}
+.nobull{
+    list-style-type: none;
+    padding: 0;
+    margin:0;
+    width: auto;
+    float: left;
+}
+.light_bg{
+    background-color: #444343;
+}
+.dark_bg{
+    background-color: #000000;
+}
+
+.page-footer{
+    bottom:0;
+    position: relative;
+}

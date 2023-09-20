@@ -1,0 +1,37 @@
+<div class="card">
+
+  <!--Card content-->
+  <div class="card-body">
+    <h4 class="mb-4 mt-1 h5 text-center font-weight-bold">Bill Summary</h4>
+
+    <hr>
+    <div *ngfor ="let item of items">
+      <dl class="row">
+        <dd class="col-sm-8">
+          {{item.product_name}}
+        </dd>
+        <dd class="col-sm-8">
+          {{item.quantity}} pieces
+        </dd>
+        <dd class="col-sm-4">
+          $ {{item.product_price}}
+        </dd>
+      </dl>
+
+      <hr>
+
+    </div>
+
+
+
+    <dl class="row">
+      <dt class="col-sm-8">
+        Total
+      </dt>
+      <dt class="col-sm-4">
+        $ {{total_price}}
+      </dt>
+    </dl>
+  </div>
+
+</div>
